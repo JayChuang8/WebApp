@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{778FDC75-C71F-474B-ABA6-D178AEB820B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{778FDC75-C71F-474B-ABA6-D178AEB820B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{778FDC75-C71F-474B-ABA6-D178AEB820B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{778FDC75-C71F-474B-ABA6-D178AEB820B8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{778FDC75-C71F-474B-ABA6-D178AEB820B8}.Debug|x64.Build.0 = Debug|Any CPU
+		{778FDC75-C71F-474B-ABA6-D178AEB820B8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{778FDC75-C71F-474B-ABA6-D178AEB820B8}.Debug|x86.Build.0 = Debug|Any CPU
+		{778FDC75-C71F-474B-ABA6-D178AEB820B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{778FDC75-C71F-474B-ABA6-D178AEB820B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{778FDC75-C71F-474B-ABA6-D178AEB820B8}.Release|x64.ActiveCfg = Release|Any CPU
+		{778FDC75-C71F-474B-ABA6-D178AEB820B8}.Release|x64.Build.0 = Release|Any CPU
+		{778FDC75-C71F-474B-ABA6-D178AEB820B8}.Release|x86.ActiveCfg = Release|Any CPU
+		{778FDC75-C71F-474B-ABA6-D178AEB820B8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B02F6AC-B822-446A-9069-F19F0B45B021}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ottnt66:8080/tfs/oag-bvg
+		SccLocalPath0 = .
+	EndGlobalSection
+EndGlobal
