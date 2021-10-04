@@ -15,5 +15,6 @@ namespace API.Data
         }
 
         public DbSet<Course> Courses { get; set; }
+
     }
 }

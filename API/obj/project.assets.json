@@ -1658,23 +1658,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chuangja\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\jaych\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chuangja\\Desktop\\Work\\WebApp\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\jaych\\OneDrive\\Desktop\\Projects\\WebApp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\chuangja\\Desktop\\Work\\WebApp\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\chuangja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chuangja\\Desktop\\Work\\WebApp\\API\\obj\\",
+      "projectPath": "C:\\Users\\jaych\\OneDrive\\Desktop\\Projects\\WebApp\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\jaych\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jaych\\OneDrive\\Desktop\\Projects\\WebApp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\chuangja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jaych\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1762,7 +1762,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

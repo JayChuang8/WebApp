@@ -1,6 +1,7 @@
 ﻿using API.Data;
 using API.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,15 +20,15 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Course>> GetCourses()
+        public async Task<ActionResult<IEnumerable<Course>>> GetCourses()
         {
-            return _context.Courses.ToList();
+            return await _context.Courses.ToListAsync();
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Course> GetCourse(int id)
+        public async Task<ActionResult<Course>> GetCourse(int id)
         {
-            return _context.Courses.Find();
+            return await _context.Courses.FindAsync(id);
         }
     }
 }
