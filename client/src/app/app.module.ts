@@ -8,12 +8,22 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { SchoolComponent } from './school/school.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    ExperienceComponent,
+    SchoolComponent,
+    ProjectsComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
