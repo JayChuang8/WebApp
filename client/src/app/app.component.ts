@@ -13,14 +13,16 @@ export class AppComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.getUsers();
+    //this.getCourses();
   }
 
-  getUsers() {
+  /*
+  getCourses() {
     this.http.get('https://localhost:5001/api/courses').subscribe(response => {
       this.courses = response;
     }, error => {
       console.log(error);
     })
   }
+  */
 }
