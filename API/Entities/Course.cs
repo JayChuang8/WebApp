@@ -10,7 +10,5 @@ namespace API.Entities
         public int Id { get; set; }
 
         public String CourseName { get; set; }
-
-        public int CourseNum { get; set; }
     }
 }
